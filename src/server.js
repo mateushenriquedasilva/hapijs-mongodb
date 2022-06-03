@@ -3,10 +3,12 @@ const Hapi = require("@hapi/hapi");
 const routes = require("./router/routes");
 const connectionDatabase = require("./database/mongoose");
 
+const PORT = 3000 || process.env.PORT;
+
 const init = async () => {
   // config
   const server = Hapi.server({
-    port: 3000,
+    port: PORT,
     host: "localhost",
   });
 
