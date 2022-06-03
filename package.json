@@ -4,7 +4,7 @@
   "description": "Api Rest com Hapi e MongoDB",
   "main": "./src/server.js",
   "scripts": {
-    "start": "node ./",
+    "start": "node ./src/server.js",
     "dev": "supervisor ./"
   },
   "keywords": [],
