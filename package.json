@@ -1,0 +1,19 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Api Rest com Hapi e MongoDB",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./",
+    "dev": "supervisor ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.5",
+    "supervisor": "^0.12.0"
+  }
+}
