@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const connection = () => {
-  mongoose.connect("mongodb+srv://matheus:4002892233@apicluster.lhgso.mongodb.net/users?retryWrites=true&w=majority");
+  mongoose.connect(process.env.CONNECTION_MONGODB);
 
   const database = mongoose.connection;
   database.on("error", (error) => console.log(error));
