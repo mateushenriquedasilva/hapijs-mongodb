@@ -9,7 +9,7 @@ const init = async () => {
   // config
   const server = Hapi.server({
     port: port,
-    host: "localhost",
+    host: "https://hapijs-and-mongo.herokuapp.com/",
   });
 
   // router
